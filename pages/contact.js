@@ -1,5 +1,6 @@
 import Layout from '../components/MyLayout'
 import Image from 'react-bootstrap/Image'
+import { Analytics } from '@vercel/analytics/react';
 
 export default () => (
   <Layout>
@@ -12,5 +13,7 @@ export default () => (
           background-color: yellow
         }
       `}</style>
+    <Analytics />  
   </Layout>
+  
 )
