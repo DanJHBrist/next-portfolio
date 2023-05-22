@@ -9,5 +9,14 @@ export default () => (
 	    <h1>Hi, I'm Daniel Bristow, a trainee Web Developer and Software<br></br> Engineer, 
 			and this is my portfolio so far.</h1>
 	    <Image src="/static/images/ITPic.jpg/" thumbnail />
+		{/* <!-- Google tag (gtag.js) --> */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QYW7XHJFRN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QYW7XHJFRN');
+</script>
   	</Layout>
 )

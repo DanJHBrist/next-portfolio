@@ -8,6 +8,7 @@ import Link from 'next/link'
 Notice that we add the link for the stylesheet for using React-Bootstrap components to the <Head>. */
 import Head from 'next/head'
 import Header from './Header'
+import { Analytics } from '@vercel/analytics/react';
 
 const layoutStyle = {
     margin: 20,
@@ -31,7 +32,9 @@ const Layout = (props) => (
   	<div style={layoutStyle}>
     	<Header />
     	{props.children}
+
   	</div>
+	  <Analytics />
   </div>
 )
 

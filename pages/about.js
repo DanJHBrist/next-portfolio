@@ -19,6 +19,15 @@ export default () => (
           background-color: red
         }
       `}</style>
+    {/* <!-- Google tag (gtag.js) --> */}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QYW7XHJFRN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-QYW7XHJFRN');
+</script>
   </Layout>
   
 )
