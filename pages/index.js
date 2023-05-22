@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Layout from '../components/MyLayout'
 import Header from '../components/Header'
 import Image from 'react-bootstrap/Image'
+import { Analytics } from '@vercel/analytics/react';
 
 export default () => (
 	<Layout>
@@ -18,5 +19,6 @@ export default () => (
 
   gtag('config', 'G-QYW7XHJFRN');
 </script>
+<Analytics /> 
   	</Layout>
 )

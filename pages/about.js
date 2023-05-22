@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import Header from '../components/Header'
 import Layout from '../components/MyLayout'
+import { Analytics } from '@vercel/analytics/react';
 
 const linkStyle = {
   marginRight: 15
@@ -28,6 +29,8 @@ export default () => (
 
   gtag('config', 'G-QYW7XHJFRN');
 </script>
+<Analytics /> 
   </Layout>
+  
   
 )
