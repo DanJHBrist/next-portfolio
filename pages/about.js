@@ -2,7 +2,8 @@
 import Link from 'next/link'
 import Header from '../components/Header'
 import Layout from '../components/MyLayout'
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/react'
+import Head from 'next/head'
 
 const linkStyle = {
   marginRight: 15
@@ -20,16 +21,7 @@ export default () => (
           background-color: red
         }
       `}</style>
-    {/* <!-- Google tag (gtag.js) --> */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QYW7XHJFRN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)  }
-  gtag('js', new Date());
-
-  gtag('config', 'G-QYW7XHJFRN');
-</script>
-<Analytics /> 
+    <Analytics /> 
   </Layout>
   
   
