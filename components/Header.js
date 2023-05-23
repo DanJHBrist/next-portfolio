@@ -11,7 +11,7 @@ const linkStyle = {
 
 const Header = () => (
     <div>
-        <Link href="/" style={linkStyle}>
+        <Link href="" style={linkStyle}>
           Main
         </Link>
         <Link href="/about" style={linkStyle}>
