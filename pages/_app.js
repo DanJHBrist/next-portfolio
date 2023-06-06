@@ -6,7 +6,7 @@ function MyApp ({ Component, pageProps }){
         <>
             <Script
             strategy = 'afterInteractive'
-            src = {'https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT-PUBLIC-GOOGLE-ANALYTICS}'} 
+            src = {'https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT-GOOGLE-ANALYTICS}'} 
             />
             
             <Script strategy='afterInteractive'>
